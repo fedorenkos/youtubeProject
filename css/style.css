@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.menu-button{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 20px;
+    height: 17px;
+    border: none;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background: #1F2022;
+    display: block;
+    border-radius: 20px;
+}
+
+.logo{
+    margin-right: 59px;
+}
+
+.header{
+    padding: 20px 70px 32px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.input-group{
+    max-width: 830px;
+    width: 50%;
+    background: #EBEBEB;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-right: 17px;
+}
+.input-search{
+    background: transparent;
+    border: none;
+    padding: 12px 23px;
+}
+
+.button-search{
+    width: 19px;
+    height: 19px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon-search{
+    fill: #000;
+}
+.icon-link{
+    text-decoration: none;
+    opacity: 0.24;
+}
+.icon-link:hover{
+    opacity: 0.7;
+}
+.icon-link:not(:last-child){
+    margin-right: 50px;
+}
+.user{
+    margin-left: 45px;
+}
+.user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
